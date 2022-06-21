@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zuri-flexbox</title>
+</head>
+<style type="text/css">
+	body{
+		font-family: sans-serif;
+	}
+	.container{
+		display: flex;
+		margin: 3rem 120px;
+	}
+	button{
+		padding: 1rem 2rem;
+		cursor: pointer;
+		border-radius: 25px;
+		margin-top: 150px;
+		border: none;
+		font-weight: 700;
+	}
+	p{
+		line-height: 1.5rem;
+		font-size: 1rem;
+	}
+	h2{
+		font-size: 2rem;
+	}
+	.cars{
+		height: 500px;
+		padding: 2rem;
+		color: #f1f1f1;
+	}
+	.sedan{
+		background-color:#ff4d00;
+	}
+	.sedan button{
+		color: #ff4d00;
+	}
+
+	.suv{
+		background-color: #03482a;
+	}
+	.suv button{
+		color: #03482a;
+	}
+	.luxury{
+		background-color: #012e21;
+	}
+	.luxury button{
+		color: #012e21;
+	}
+	button:hover{
+		background-color: transparent;
+		color: #f1f1f1;
+		border: 2px solid #f1f1f1;
+	}
+
+</style>
+<body>
+	<div class="container">
+		<div class="sedan cars">
+			<img src="images/icon-sedans.svg" alt="sedans-icon">
+			<div>
+				<h2>SEDANS</h2>
+				<p>Choose a sedan for it's affordability and excellent fuel economy. Ideal for cruising in the city or your next road trip</p>
+			</div>
+			<button>Learn More</button>
+		</div>
+		<div class="suv cars">
+			<img src="images/icon-suvs.svg" alt="suv-icon">
+			<div>
+				<h2>SUV</h2>
+				<p>Take SUV for it's spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures</p>
+			</div>
+			<button>Learn More</button>
+		</div>
+		<div class="luxury cars">
+			<img src="images/icon-luxury.svg" alt="luxury-icon">
+			<div>
+				<h2>LUXURY</h2>
+				<p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive style</p>
+			</div>
+			<button>Learn More</button>
+		</div>
+	</div>
+</body>
+</html>
